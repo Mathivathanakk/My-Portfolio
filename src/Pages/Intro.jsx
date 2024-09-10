@@ -3,7 +3,7 @@ import photo from "../assets/photo.jpg"
 import hand from "../assets/hand-icon.png";
 import { MdArrowOutward } from "react-icons/md";
 import { LuDownload } from "react-icons/lu";
-import resume from '../assets/Mathivathana-Resume.pdf'
+
 
 const Intro = () => {
   return (
@@ -23,7 +23,7 @@ const Intro = () => {
         </h5>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 font-Serif text-xl">
           <a
-            href={resume}
+            href="https://drive.google.com/file/d/1QmL8da6w6YZRc5CAZpfpH5zxxJ6jR6Bk/view?usp=drivesdk"
             target="_blank"
             download
             className="px-10 py-3 border rounded-full bg-gradient-to-r from-[#542b61] to-[#ec8cd7]  text-white flex items-center gap-2"
